@@ -16,7 +16,7 @@ $dataFolder = dirname(__FILE__) . "/data";
 
 // General user configuration
 $userPermissions = [
-	'master' => false,		// Reserved for user management
+	'master' => true,		// Reserved for user management
 	'home' => "/inbox",		// Home directory; writeable by default
 	'globalWrite' => false	// If true, it makes the hole $dataFolder writeable
 ];
